@@ -1,1 +1,22 @@
 // Navigation code here
+nav{
+  display:flex;
+  justify-content:space-around;
+  margin:100px 170px -50px 160px;
+  @media @phone{
+    display:none;
+  }
+}
+
+
+header nav a{
+  text-decoration:none;
+  font-size:15px;
+  color:grey;
+  @media @phone{
+    margin:10px 10px 10px 10px;
+  }
+}
+
+@phone:~"(max-width: 500px)";
+@media:~"(max-width:500px)";
